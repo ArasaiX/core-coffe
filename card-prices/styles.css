@@ -61,12 +61,13 @@ div img {
 
 .product-name {
     font-size: 24px;
-    font-weight: bold;
+    /* font-weight: bold; */
     width: 40%;
     justify-content: center;
     display: flex;
     padding-left: 10px;
     text-align: center;
+    font-family: 'BalyFont';
     }
 
 .product-weight {
@@ -126,3 +127,15 @@ div img {
     color: #289e53;
     font-size: 24px;
 }
+
+
+
+@font-face {
+    font-family: 'BalyFont'; /* Choose a name for your font */
+    src: url('./fonts/belyfont.woff2') format('woff2'),
+         url('./fonts/belyfont2.woff') format('woff');
+    /* Add additional font formats if needed (e.g., .ttf, .eot) */
+    /* More specific formats should come first for better browser compatibility */
+    font-weight: normal;
+    font-style: normal;
+  }
